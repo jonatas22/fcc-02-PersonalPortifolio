@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Personal Portifolio</title>
+</head>
+<body>
+<!-- HEADER -->	
+		<header class="fixed-top text-white" id="header">						
+			<div class="container">			
+				<nav class="navbar navbar-toggleable-sm navbar-light">		
+				  <button class="navbar-toggler navbar-toggler-right mt-2" type="button" data-toggle="collapse" data-target="#nav-buttons" aria-controls="nav-buttons" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <a class="navbar-brand text-white" href="#">JOC</a>
+				  <div class="collapse navbar-collapse" id="nav-buttons">
+				    <ul class="navbar-nav ml-auto">
+				      <li class="nav-item active sobre">
+				        <a class="nav-link h5 text-white" href="#sobre"><i class="fa fa-address-card ml-1" aria-hidden="true"></i> Sobre <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item portfolio">
+				        <a class="nav-link h5 text-white portfolio" href="#portfolio"> <i class="fa fa-briefcase ml-1" aria-hidden="true"></i> Portfólio</a>
+				      </li>
+				      <li class="nav-item contato">
+				        <a class="nav-link h5 text-white contato" href="#contato"><i class="fa fa-envelope ml-1" aria-hidden="true"></i> Contato</a>
+				      </li>			      
+				    </ul>
+				  </div>		
+				</nav>
+			</div>
+		
+		</header>
+<!-- FIM HEADER -->		
+
+<!-- CONTEUDO -->
+		<div id="imagem-fundo">
+			<div class="jumbotron">
+				<p class="display-4 text-center">Densenvolvedor Web Full-Stack MEAN</p>
+			</div>
+		</div>
+		<div class="container" id="conteudo">
+			<div id="sobre" class="jumbotron shadow-box">
+				<p class="display-3"> sobre / <span class="display-4 font-italic"> about</span> </p>
+				<div class="row">			 	
+					<div class="col-md-8 col-12">
+						<p class="lead">Desenvolvedor Front-End na reta de se tornar Full-Stack MEAN</p>
+						<hr class="my-4">
+						<p><strong>Habilidades: </strong>HTML5, CSS3, Javascript, jQuery, NodeJS, Angular, React, MongoDB, MEAN Stack</p>
+						<p><strong>Certificados: </strong>
+							<ul>
+								<li>
+									<p>HTML, CSS, and Javascript for Web Developers</p>
+									<p class="text-muted"><a href="https://www.coursera.org/account/accomplishments/verify/9STH7WSE2ZNL?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BwKQN4q3sRgOJdM4F8x2EYA%3D%3D">Visualizar Certificado</a> (COURSERA)</p>
+								</li>
+							</ul>
+						</p>
+						<p><strong>Inglês: </strong>Upper-Intermediate</p>												
+					</div>
+					<div class="col-md-4 col-12 text-center">
+						<img src="imgs\perfil_reduzida.jpg" id="foto" class="img-fluid img-thumbnail">
+					</div>									
+				</div>
+			</div>
+
+			<div id="portfolio" class="jumbotron shadow-box">
+				  <p class="display-3"> portfólio / <span class="display-4 font-italic"> portfolio</span> </p>
+				  <p class="lead mb-5 pb-4">Abaixo alguns projetos desenvolvidos em HTML5, CSS, Javascript, jQuery e AngularJS.</p>
+				  <hr class="my-4 hidden-sm-up">
+				  <div class="row">
+				  	<div class="col-md-6 col-12 text-center">
+				  		<img src="imgs\sicnetmobile.jpg" id="foto" class="img-fluid img-thumbnail portfolio-imgs">
+  							<p class="legend">A page to download an enterprise app for Android or iOS</p>
+  							<hr class="hidden-sm-up">		  		
+				  	</div>
+				  	<div class="col-md-6 col-12 text-center">
+				  		<img src="imgs\tributepage.jpg" id="foto" class="img-fluid img-thumbnail portfolio-imgs">
+  							<p class="legend">A tribute page</p>					  		
+				  	</div>				  					  	
+				  </div>
+			</div>
+
+			<div id="contato" class="jumbotron shadow-box">
+				  <p class="display-3">contato / <span class="display-4 font-italic"> contact</span> </p>
+				<div class="row">
+				  <div class="col-md-6 col-12">
+						  <p class="lead">Que tal entrar em contato e saber mais sobre a minha experiência, conhecer melhor os trabalhos executados, tirar uma dúvida sobre algum problema, ou apenas conversar sobre sua vida? :)</p>
+						  <p>Preencha o formulário ao lado e entrarei em contato o mais breve possível.</p>
+				  </div>
+				  <div class="col-md-6 col-12">
+					  <form action="https://formspree.io/jonatas.oliveiracoelho@gmail.com"
+      method="POST">
+					  	<div class="col-10">
+						  <div class="form-group">
+						    <label for="name">Nome</label>
+						    <input type="text" class="form-control" id="name" placeholder="Informe seu nome" required="true" name="name">
+						  </div>					  	
+						  <div class="form-group">
+						    <label for="email">E-mail</label>
+						    <input type="email" class="form-control" id="email" placeholder="Informe seu e-mail" required="true" name="_replyto">
+						  </div>
+						  <div class="form-group">
+						    <label for="message">Mensagem</label>
+						    <textarea class="form-control" id="message" placeholder="Informe sua necessidade" required="true" rows="5" name="message"></textarea>
+						  </div>
+						  <input type="hidden" name="_language" value="pt-BR" />
+						  <input type="hidden" name="_next" value="#"/>
+						  <button type="submit" class="btn btn-dark"><i class="fa fa-paper-plane" aria-hidden="true"></i> Enviar</button>
+						  </div>
+						</form>
+				  </div>				  	
+				</div>
+			</div>
+		</div>
+<!-- FIM CONTEUDO -->	
+	
+<!-- FOOTER -->
+	<footer>
+		<div class="container">
+	        <div class="text-center">
+	            <p class="h6 text-white">- Social -</p>
+                <a href="https://github.com/jonatas22" target="_blank">
+	            	<i id="social-git" class="fa fa-github fa-3x social" aria-hidden="true"></i>
+	            </a>            
+                <a href="https://twitter.com/jonys_coelho" target="_blank">
+	            	<i id="social-tw" class="fa fa-twitter-square fa-3x social"></i>
+	            </a>
+	            <a href="https://www.freecodecamp.org/jonatas22" target="_blank">
+	            	<i id="social-fcc" class="fa fa-free-code-camp fa-3x social"></i>
+	            </a>
+	            <a href="mailto:jonatas.oliveiracoelho@gmail.com">
+	            	<i id="social-em" class="fa fa-envelope-square fa-3x social"></i>
+	            </a>
+                <a href="https://www.facebook.com/jonatasoliveiracoelho" target="_blank">
+                	<i id="social-fb" class="fa fa-facebook-square fa-3x social"></i>
+                </a>
+			</div>
+			<div id="made-by">
+				Made by: Jonatas de Oliveira Coelho
+			</div>
+		</div>
+    	<hr>
+	</footer>
+<!-- FIM FOOTER -->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
+	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  	<script src="js/script.js"></script>
+</body>
+</html>
